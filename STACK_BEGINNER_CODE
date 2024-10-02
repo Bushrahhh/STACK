@@ -1,1 +1,24 @@
-#
+#include<iostream>
+#include<stack>
+using namespace std;
+int main(){
+    //CREATION OF STACK
+    stack<int> s;
+    //PUSH OPERATION
+    s.push(2);
+    s.push(3);
+    //POP OPERATION
+    s.pop();
+    //PRINTING STACK TOP ELEMENT
+    cout<<"STACK'S TOP ELEMENT IS : "<<s.top()<<endl;
+    //TO CHECK IF STACK IS EMPTY
+    if(s.empty()){
+        cout<<"STACK IS EMPTY"<<endl;
+    }
+    else{
+        cout<<"STACK IS NOT EMPTY MY LOVE"<<endl;
+    }
+    }
+
+
+
